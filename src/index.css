@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+ /* intro and email sign up background */
+  --dark-Blue: hsl(217, 28%, 15%);
+  /* main background */
+--Dark-Blue: hsl(218, 28%, 13%);
+/* footer background  */
+--Dark-Blue: hsl(216, 53%, 9%);
+/* testimonials background */
+--DarkBlue: hsl(219, 30%, 18%);
+
+/* inside call-to-action gradient */
+--Cyan : hsl(176, 68%, 64%);
+  /* inside call-to-action gradient */
+--Blue : hsl(198, 60%, 50%);
+/*error  */
+--Light-Red: hsl(0, 100%, 63%);
+
+/* Netural */
+--White: hsl(0, 0%, 100%);
+}
+
+ 
+
+ 
+/* Remove list styles */
+ol, ul {
+  list-style: none;
+}
+ 
+
+ .bg-dark {
+  background: #0B1524;
+ }
+
+ input {
+  width: 280px;
+  height: 48px;
+  border-radius: 16px;
+ }
+
+ i {
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 50%;
+  height: 32.36px;
+  width: 31px;
+ }
+
+ .contact-btn {
+  width: 280px;
+  height: 48px;
+  border-radius: 32px;
+ }
+
+/* Reset input and button appearance */
+input, button, textarea, select {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Box sizing reset for all elements */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a{
+ text-decoration: none !important;
+ color: white !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway';
+  line-height: 0;
+ }
+
+img {
+  width: 100%;
+}
+
+.icon {
+  max-width: 104px;
+  max-height: 104px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.mt-120 {
+  margin-top: 120px;
+}
+
+.hero-btn {
+  background: var(--Cyan);
+  padding: 10px 81px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+.bg {
+  background: var(--dark-Blue);
+}
+
+.mt-170 {
+  margin-top: 170px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ 
+
+/* nav */
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.menu {
+  margin-right: 20px;
+}
+
+.reset {
+  padding: 0;
+  margin: 0;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+}
+
+.card {
+  width: 33%;
+  background: #202A3C;
+}
+
+.main {
+  position: relative;
+  z-index: 2; /* Make sure the main content appears above the overlay */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Ensure the overlay is behind the main content */
+}
+
+ .container-fluid {
+  position: relative;
+  z-index: 1;
+}
+
+.quotes-overlay {
+  position: absolute;
+  top: -3%;
+  left: 1%;
+  z-index: 0; /* Send the quotes image to the background */
+  width: 100%;
+}
+
+.quotes-overlay img {
+  max-width: 80px; /* Adjust size of the quotes */
+ }
+
+.card {
+  background: #202A3C;
+  color: white;
+  z-index: 1; /* Ensure the card is in front of the image */
+  position: relative;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin: 0 auto; /* Center the card on smaller screens */
+  }
+}
+
+.quotes {
+  width: 49px;
+  height: 49px;
+}
+
+.footerImg {
+  width: 24px;
+  height: 24px;
+}
+
+footer {
+  background: #0B1524;
+  color: white;
+ }
+
+.mt-150 {
+  margin-top: 180px;
+}
+
+.mt-300 {
+  margin-top: 250px;
+}
+
+.icons {
+  height: 24px;
+  width: 24px;
+}
+
+.overlay-main {
+  position: relative;
+ }
+
+
+.overlay {
+  top: -60%;
+  left: 10%;
+}
+ 
+
+@media (min-width: 200px) and (max-width: 399px) {
+
+ .overlay {
+  top: 60%;
+  left: 10%;
+}
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+ .overlay {
+  top: -30%;
+  left: 10%;
+}
+}
+
+
+
+@media (min-width: 800px) and (max-width: 992px) {
+ .overlay {
+  top: -30%;
+  left: 15%;
+}
+}
+
+ 
